@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: whitesmoke;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-game{
+
+    width: 50%;
+    height: 50%;    
+    background-color: white;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: rgb(90, 198, 241);
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.selecionado{
+    opacity: 0.8;
+}
