@@ -16,11 +16,12 @@ body{
 .card{
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     background-color: blue;
     justify-content: center;
     align-items: center;
+    
 }
 
 .card-game{
@@ -28,24 +29,45 @@ body{
     width: 50%;
     height: 50%;    
     background-color: white;
+    
+    
 }
 
 .red{
-    background-color: red;
+    
+    background-image: url("./img/1200px-Palmeiras_logo.svg.png");
+    background-size: cover;
 }
-
+.red:hover{
+    cursor: pointer;
+}
 .green{
-    background-color: green;
+    background-image: url("./img/Santos_logo.svg.png");
+    background-size: cover;
+    
 }
-
+.green:hover{
+    cursor: pointer;
+}
 .blue{
-    background-color: rgb(90, 198, 241);
+    background-image: url("./img/São_Paulo_Futebol_Clube.png");
+    background-size: cover;
+    
 }
-
+.blue:hover{
+    cursor: pointer;
+}
 .yellow{
-    background-color: yellow;
+    background-image: url("./img/Corinthians_simbolo.png");
+    background-size: cover;
+    
 }
-
+.yellow:hover{
+    cursor: pointer;
+    
+}
 .selecionado{
-    opacity: 0.8;
+    border-radius: 100px;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
